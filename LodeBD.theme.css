@@ -647,3 +647,19 @@ section > div.maximized-vv2Wr0 > div > div > img {
 .scroller-2ZPeAD {
   border-left: none;
 }
+/* 
+  Weird scuffed server menu ok
+*/
+div.scroller-3BxosC > div > div {
+  margin-left: 0;
+} 
+
+/* 
+  Weird scuffed search output lol
+*/
+div > .searchResultsWrap-3-pOjs {
+  right: 0;
+  left: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
