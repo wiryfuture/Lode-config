@@ -641,3 +641,9 @@ section > div.maximized-vv2Wr0 > div > div > img {
   border-top-left-radius: 1em;
   border-top-right-radius: 1em;
 } 
+/* 
+  Get rid of vertical line left of Active now
+*/
+.scroller-2ZPeAD {
+  border-left: none;
+}
