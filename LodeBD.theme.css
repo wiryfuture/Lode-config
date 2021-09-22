@@ -673,3 +673,10 @@ div > .searchResultsWrap-3-pOjs {
 .content-3YMskv > a:nth-of-type(3) {
   display: none;
 }
+
+/*
+  Get rid of ew ew ew call background
+*/
+div > div {
+  --call-bg: url();
+}
