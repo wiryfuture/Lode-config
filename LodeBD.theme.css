@@ -663,3 +663,13 @@ div > .searchResultsWrap-3-pOjs {
   margin-left: auto;
   margin-right: auto;
 }
+
+/*
+  Hide stages and nitro because idc about them
+*/
+.content-3YMskv > a:nth-of-type(2) {
+  display: none;
+}
+.content-3YMskv > a:nth-of-type(3) {
+  display: none;
+}
