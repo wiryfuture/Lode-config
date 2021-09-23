@@ -675,8 +675,32 @@ div > .searchResultsWrap-3-pOjs {
 }
 
 /*
-  Get rid of ew ew ew call background
+  Get rid of ew ew ew call background from fey theme
 */
 div > div {
   --call-bg: url();
+}
+
+/* 
+  Fix add reaction and apps menus being scuffed?
+*/
+.labelContainer-1BLJti {
+  margin-left: 0;
+}
+
+/* 
+  Fix mouse2, add reaction and Apps menus not being centred - ew
+*/
+.thin-1ybCId {
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.item-1tOPte {
+  padding-left: 6px;
+  padding-right: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+.listItems-1uJgMC {
+  left: 0 !important;
 }
