@@ -704,3 +704,38 @@ div > div {
 .listItems-1uJgMC {
   left: 0 !important;
 }
+
+/*
+  Previous fix broke more menus. Nice]
+*/
+.body-3HBlXn {
+  margin-left: 6px !important;
+  margin-right: 6px !important;
+}
+
+/*
+  user list highlight looks a bit odd because the width is wrong because of a margin
+*/
+div.layout-2DM8Md {
+  margin-right: 0;
+}
+
+/*
+  All of the private channels are lopsided. why.
+*/
+.channel-2QD9_O {
+  margin-left: 0;
+}
+.content-3YMskv {
+  margin-left: 8px;
+  margin-right: 8px;
+}
+/* so are the headers */
+.privateChannelsHeaderContainer-3NB1K1 {
+  margin-left: 0;
+  padding-left: 8px;
+  padding-right: 6px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  height: fit-content;
+}
