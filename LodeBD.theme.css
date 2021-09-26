@@ -540,7 +540,7 @@ USRBG Profile Modals by Tropix126.
 .panels-j1Uci_{transition:height .5s;z-index:902;position:fixed;right:var(--spotify-right);bottom:5em;border-radius:1em!important;width:240px}
 .bannerImage-3KhIJ6{opacity:1;transition:opacity .5s;}
 .membersWrap-2h-GB4{background-color:var(--background-secondary);height:calc(100% - 160px);transition:height .5s;border-radius:var(--borders-radius);position:absolute;right:1em;top:.5em;overflow:hidden}
-.chatContent-a9vAAp{position:absolute;width:100%;height:100%}
+.chatContent-a9vAAp{position:absolute;width:85%;height:100%}
 .divider-3_HH5L,.jumpToPresentBar-G1R9s6,.newMessagesBar-265mhP{width:calc(100% - 290px)}
 .container-2fRDfG{width:calc(100% - 260px)}
 .message-2qnXI6[role=listitem]{width:calc(100% - 365px);border-radius:1em}
