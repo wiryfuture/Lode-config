@@ -942,7 +942,6 @@ div.layout-2DM8Md {
 .listItems-1uJgMC {
   right: 0 !important;
 }
-
 .categoryItem-1D0nxC {
   /* Tiny bit of padding to increase touch targets */
   right: 0;
@@ -952,7 +951,6 @@ div.layout-2DM8Md {
   padding-left: 15%;
   padding-right: 15%;
 }
-
 .categoryItem-1D0nxC div svg {
   margin-left: auto;
   margin-right: auto;
@@ -961,16 +959,68 @@ div.layout-2DM8Md {
 /*
   Emojis in the emoji selector are a bit wonky leftwards, let's make them centred
 */
-
 .emojiListRow-m_GHp0 {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
   display: flex !important;
   flex-direction: row;
-  justify-content: center ;
+  justify-content: center;
 }
-
 .emojiItem-14v6tW {
   display: inline-block;
+}
+
+/*
+  Stickers have the same issue but different classes
+*/
+.stickerCategory-3Yz7vN {
+  /* Tiny bit of padding to increase touch targets */
+  right: 0;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+.row-2psonc {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex !important;
+  flex-direction: row;
+  justify-content: center;
+}
+.sticker-2cpdZp {
+  display: inline-block;
+}
+
+/*
+  Slight border-radius on emojis and stickers so they aren't so sharp
+*/
+.emoji {
+  border-radius: 6px !important;
+}
+.image-1CmAz0 {
+  border-radius: 6px !important;
+}
+.stickerAsset-13j1W0 {
+  border-radius: 6px !important;
+}
+
+/*
+  BD emotes from BD look scuffed in the menu
+*/
+.bd-emote-menu-inner {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.bd-emote-header{
+  width: auto;
+  flex: 0 0 100%;
+}
+.bd-emote-category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
