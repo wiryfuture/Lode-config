@@ -665,12 +665,9 @@ div > .searchResultsWrap-3-pOjs {
 }
 
 /*
-  Hide stages and nitro because idc about them
+  Hide nitro because idc about it
 */
 .content-3YMskv > a:nth-of-type(2) {
-  display: none;
-}
-.content-3YMskv > a:nth-of-type(3) {
   display: none;
 }
 
