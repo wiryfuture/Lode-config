@@ -1024,3 +1024,10 @@ div.layout-2DM8Md {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+/*
+  Bot tags are scuffed in the banned menu
+*/
+.listItemContents-BUaJR_ div div div .botText-1526X_ {
+  top: -4px;
+}
