@@ -1031,3 +1031,10 @@ div.layout-2DM8Md {
 .listItemContents-BUaJR_ div div div .botText-1526X_ {
   top: -4px;
 }
+
+/*
+  Patch notes are too far left
+*/
+.root-1gCeng {
+  padding: 8px;
+}
